@@ -16,7 +16,7 @@
           exact
         >
           <v-list-item-action>
-            <v-icon>{{ item.icon }}</v-icon>
+            <img :src="item.icon"/>
           </v-list-item-action>
           <v-list-item-content>
             <v-list-item-title v-text="item.title" />
@@ -62,12 +62,12 @@ export default {
       fixed: true,
       items: [
         {
-          icon: 'mdi-home',
-          title: 'Bienvenido',
+          icon: 'https://img.icons8.com/material-outlined/24/000000/home--v2.png',
+          title: 'Inicio',
           to: '/'
         },
         {
-          icon: 'mdi-account',
+          icon: 'https://img.icons8.com/carbon-copy/24/000000/morty-smith.png',
           title: 'Personajes',
           to: '/personajes'
         }
