@@ -1,9 +1,9 @@
 <template>
-  <div>
+  <div class="mt-2">
     <v-row>
       <v-col></v-col>
       <v-col align="center" cols="3">
-        <h1 class="title">Personajes</h1>
+        <h1 class="characterListTitle">Personajes</h1>
       </v-col>
       <v-col></v-col>
     </v-row>
@@ -31,9 +31,8 @@ export default {
 </script>
 
 <style scoped>
-.title {
-  padding: 10px;
-  border: 2px solid #ffffff;
-  border-radius: 10px;
+.characterListTitle {
+  font-size: 45px;
+  font-family: 'GetSchwifty';
 }
 </style>

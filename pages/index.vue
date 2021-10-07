@@ -1,7 +1,7 @@
 <template>
   <div>
     <v-img :src="bgImg" class="bgImg" height="100vh"> </v-img>
-    <h1 class="bgText">Bienvenido</h1>
+    <h1 class="bgText">Bienvenidos</h1>
   </div>
 </template>
 
@@ -15,6 +15,10 @@ export default {
 </script>
 
 <style>
+@font-face {
+  font-family: 'GetSchwifty';
+  src: url('../static/fonts/get_schwifty.ttf');
+}
 .container {
   padding: 0;
 }
@@ -25,6 +29,7 @@ export default {
 .bgText {
   color: #000000;
   font-size: 45px;
+  font-family: 'GetSchwifty';
   position: absolute;
   transform: translate(-50%, -50%);
   top: 50%;
