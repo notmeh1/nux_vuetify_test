@@ -35,6 +35,7 @@
       >
         <v-icon>mdi-{{ `chevron-${miniVariant ? 'right' : 'left'}` }}</v-icon>
       </v-btn>
+      <img :src="titleIcon" class="mx-3"/>
       <v-toolbar-title v-text="title" />
       <v-spacer />
     </v-app-bar>
@@ -74,6 +75,7 @@ export default {
       miniVariant: false,
       right: true,
       rightDrawer: false,
+      titleIcon: 'https://img.icons8.com/color/48/000000/rick-sanchez.png',
       title: 'Rick and Morty'
     }
   }
