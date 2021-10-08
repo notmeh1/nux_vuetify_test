@@ -10,7 +10,7 @@
     <v-row>
       <v-col v-for="character in characters" :key="character.id" xl="4">
         <v-card class="rounded-xl">
-          <v-img class="mx-auto" :src="character.imagen" width="200px" />
+          <v-img class="mx-auto rounded-xl" :src="character.imagen" width="200px" />
           <v-card-title class="justify-center">{{
             character.nombre
           }}</v-card-title>
